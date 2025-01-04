@@ -7,4 +7,4 @@ Welcome to my journey of learning Python in 100 days! This repository contains c
 ## Table of Contents
 
 - [Day 1: Working with Variables](learn_python_by_coding/day_1/working_with_variables.py)
-- [Day 1: Understanding Data Types](learn_python_by_coding/day_2/understanding_data_types.py)
+- [Day 2: Understanding Data Types](learn_python_by_coding/day_2/understanding_data_types.py)
