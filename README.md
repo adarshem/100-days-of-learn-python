@@ -2,6 +2,10 @@
 
 Welcome to my journey of learning Python in 100 days! This repository contains code and exercises for each day of the challenge.
 
+![Last Commit](https://img.shields.io/github/last-commit/adarshem/100-days-of-learn-python)
+![Forks](https://img.shields.io/github/forks/adarshem/100-days-of-learn-python?style=social)
+![Stars](https://img.shields.io/github/stars/adarshem/100-days-of-learn-python?style=social)
+
 ![Python-01](https://github.com/user-attachments/assets/eeffc19f-49f9-4dc9-ba33-a588078f349c)
 
 ## Table of Contents
