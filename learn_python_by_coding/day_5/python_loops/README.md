@@ -51,5 +51,5 @@ for i in range(1, 10, 2):
     print(i)  # Output: 1 3 5 7 9
 ```
 
-## Colclusion
+## Conclusion
 Understanding `for` loops and the `range` function is essential for iterating over sequences and generating sequences of numbers in Python. These tools are widely used in various programming tasks and are fundamental to mastering Python.
