@@ -20,6 +20,8 @@ A great thank you to [Angela Yu](https://www.linkedin.com/in/angela-yu1/) for cr
 - [Day 2: Understanding Data Types](learn_python_by_coding/day_2/understanding_data_types.py)
 - [Day 3: Control Flow and Logical Operators](learn_python_by_coding/day_3/control_flow_and_logical_operator.py)
 - [Day 4: Random module and Python List](learn_python_by_coding/day_4/random_and_list.py)
+- [Day 5: Python loops and range funtion](learn_python_by_coding/day_5)
+- [Day 6: Python Functions](learn_python_by_coding/day_6)
 
 
 ## Useful Links:
