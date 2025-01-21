@@ -13,7 +13,7 @@ Welcome to the Hangman Game! This is a simple implementation of the classic word
 
 ## How to Play
 
-1. The game will randomly choose a word.
+1. The game will randomly choose a word based on the category selected(Common words, Famous filim names, Animal names).
 2. You will be prompted to guess a letter.
 3. If the guessed letter is in the word, it will be revealed in its correct position(s).
 4. If the guessed letter is not in the word, you will lose a life.
