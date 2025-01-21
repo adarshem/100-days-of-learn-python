@@ -1,16 +1,29 @@
 import random
-from hangman_words import word_list
-from hangman_ui import stages, logo
+# import hangman_ui -> This will import the whole module
+from hangman_ui import stages, logo # This will import only the stages and logo variables
+from hangman_words import word_list, film_names, common_words, animal_names
 
-chosen_word = random.choice(word_list)
+# Print the game logo
+print(f"{logo}\n")
+
+# Ask the user to choose a word category
+print("Choose a word category:")
+print("1. Common Words")
+print("2. Famous Film Names")
+print("3. Animal names")
+
+words_category = int(input("Enter the number corresponding to your choice (1, 2, or 3): "))
+if words_category not in [1, 2, 3]:
+    print("You have entered an invalid choice. Exiting the game.")
+    exit()
+
+categoryies = [word_list, common_words, film_names, animal_names]
+chosen_word = random.choice(categoryies[words_category])
 placeholder = ""
 guessed_parts = ""
 correct_letters = []
 user_lives = 6
 game_over = False
-
-# Print the game logo
-print(logo)
 
 # crate a placeholder text like _____
 for number in range(0, len(chosen_word)):
