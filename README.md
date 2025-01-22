@@ -23,6 +23,7 @@ A great thank you to [Angela Yu](https://www.linkedin.com/in/angela-yu1/) for cr
 - [Day 5: Python loops and range funtion](learn_python_by_coding/day_5/python_loops/)
 - [Day 6: Python Functions](learn_python_by_coding/day_6)
 - [Day 7: The Hangman game](learn_python_by_coding/day_7)
+- [Day 8: Function parameters and Caesar Cipher](learn_python_by_coding/day_8)
 
 ## Useful Links:
 - [Reeborg's world](https://reeborg.ca/index_en.html)
