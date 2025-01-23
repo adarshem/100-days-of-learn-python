@@ -1,3 +1,7 @@
+from art import logo
+
+print(logo)
+
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
@@ -24,11 +28,14 @@ def encrypt(original_text: str, shift_amount: int) -> str:
 def decrypt(encrypted_text: str, shift_amount: int) -> str:
     decrypted_text = ""
     for letter in encrypted_text:
-        backward_shifted_position = alphabet.index(letter) - shift_amount
-        if backward_shifted_position >= 0:
-            decrypted_text += alphabet[backward_shifted_position]
+        if letter in alphabet:
+            backward_shifted_position = alphabet.index(letter) - shift_amount
+            if backward_shifted_position >= 0:
+                decrypted_text += alphabet[backward_shifted_position]
+            else:
+                decrypted_text += alphabet[26 + backward_shifted_position]
         else:
-            decrypted_text += alphabet[26 + backward_shifted_position]
+            decrypted_text += letter
 
     return decrypted_text
 
