@@ -5,16 +5,6 @@ text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
 
-# TODO-1: Create a function called 'encrypt()' that takes 'original_text' and 'shift_amount' as 2 inputs.
-
-# TODO-2: Inside the 'encrypt()' function, shift each letter of the 'original_text' forwards in the alphabet
-#  by the shift amount and print the encrypted text.
-
-# TODO-4: What happens if you try to shift z forwards by 9? Can you fix the code?
-
-# TODO-3: Call the 'encrypt()' function and pass in the user inputs. You should be able to test the code and encrypt a
-#  message.
-
 def encrypt(original_text: str, shift_amount: int) -> str:
     encrypted_text = ""
     for letter in original_text:
@@ -22,7 +12,8 @@ def encrypt(original_text: str, shift_amount: int) -> str:
             shifted_number = alphabet.index(letter) + shift_amount
 
             if shifted_number > 25:
-                encrypted_text += alphabet[shifted_number - 25] # if the number is z then it will encoded to the 9th element in the alphabet array that is j
+                 # if the number is z then it will encoded to the 9th element in the alphabet array that is j
+                encrypted_text += alphabet[shifted_number - 26]
             else:
                 encrypted_text += alphabet[shifted_number]
         else:
@@ -30,4 +21,19 @@ def encrypt(original_text: str, shift_amount: int) -> str:
 
     return encrypted_text
 
-print(encrypt(text, shift))
+def decrypt(encrypted_text: str, shift_amount: int) -> str:
+    decrypted_text = ""
+    for letter in encrypted_text:
+        backward_shifted_position = alphabet.index(letter) - shift_amount
+        if backward_shifted_position >= 0:
+            decrypted_text += alphabet[backward_shifted_position]
+        else:
+            decrypted_text += alphabet[26 + backward_shifted_position]
+
+    return decrypted_text
+
+
+if direction == "encode":
+    print(f"Here is the encoded result: {encrypt(text, shift)}")
+else:
+    print(f"Here is the decoded result: {decrypt(text, shift)}")
