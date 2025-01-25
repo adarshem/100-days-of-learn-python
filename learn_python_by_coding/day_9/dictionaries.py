@@ -17,7 +17,23 @@ print(programming_dictionary)
 # programming_dictionary = {}
 # print(programming_dictionary)
 
+test_item = {"z": "Test Z", "a": "test", "b" : "ttt"}
+# test_item["b"] = "wow"
+# test_item["b"] = "5"
+print(test_item)
+print(list(test_item)) # list all keys used in the dictionary ['z', 'a', 'b']
+print(sorted(test_item)) # list all key used in the dictionary in sorted order ['a', 'b', 'z']
+print("z" in test_item) # check if a key is present in the dictionary True
+
+new_dictionary = dict([("a", "test-a")]) # create a dictionary using dict function
+print(new_dictionary)
+
+
+
 # loop through dictionary
+for k,v in test_item.items():
+    print(k, v)    
+
 for key in programming_dictionary:
     print(programming_dictionary[key])
 
