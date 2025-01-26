@@ -94,5 +94,36 @@ print(nested_dict['person1']['name'])  # Output: John
 print(nested_dict['person2']['age'])   # Output: 30
 ```
 
+## Finding Maximum Value in a Dictionary
+
+You can find the maximum value in a dictionary using the `max` function. The `max` function can be used to find the key with the maximum value.
+
+```python
+# Finding the maximum value in a dictionary
+scores = {'Alice': 85, 'Bob': 92, 'Charlie': 88}
+max_score = max(scores.values())
+print(max_score)  # Output: 92
+```
+The expression max(scores.items(), key=lambda x: x[1]) is used to find the key-value pair with the maximum value in a dictionary called scores.
+
+Here's how it works:
+
+- `bidding_record.items()` returns a view object that displays a list of the dictionary's key-value tuple pairs.
+- `key=lambda x: x[1]` specifies that the max function should compare the items based on their values (the second element of each tuple).
+    - In Python, a lambda is a shorthand way to define a small, anonymous function (a function without a name). It’s often used when you need a simple function for a short period, especially as an argument to functions like max(), sorted(), or filter().
+
+```python
+scores = {
+    'Alice': 150,
+    'Bob': 200,
+    'Charlie': 180
+}
+
+# Find the key-value pair with the maximum value
+highest_score = max(scores.items(), key=lambda x: x[1])
+print(highest_score)  # Output: ('Bob', 200)
+```
+
+
 ## Conclusion
 Dictionaries are a powerful and flexible data structure in Python. They allow you to store and manipulate data using key-value pairs, making it easy to organize and access information. Understanding how to work with dictionaries is essential for any Python programmer.
