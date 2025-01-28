@@ -25,6 +25,7 @@ A great thank you to [Angela Yu](https://www.linkedin.com/in/angela-yu1/) for cr
 - [Day 7: The Hangman game](learn_python_by_coding/day_7)
 - [Day 8: Function parameters and Caesar Cipher](learn_python_by_coding/day_8)
 - [Day 9: Dictionaries](learn_python_by_coding/day_9)
+- [Day 10: Calculator](learn_python_by_coding/day_10)
 
 ## Useful Links:
 - [Reeborg's world](https://reeborg.ca/index_en.html)
