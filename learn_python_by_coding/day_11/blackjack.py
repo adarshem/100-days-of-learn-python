@@ -20,7 +20,6 @@ def calculate_score(deal_cards):
 
     return sum(deal_cards)
 
-
 def compare(u_score, c_score):
     """Compares the user score u_score against the computer score c_score."""
     if u_score == c_score:
@@ -37,7 +36,6 @@ def compare(u_score, c_score):
         return "You win 😃"
     else:
         return "You lose 😤"
-
 
 def play_blackjack_game():
     print(art.logo)
