@@ -26,7 +26,10 @@ A great thank you to [Angela Yu](https://www.linkedin.com/in/angela-yu1/) for cr
 - [Day 8: Function parameters and Caesar Cipher](learn_python_by_coding/day_8)
 - [Day 9: Dictionaries](learn_python_by_coding/day_9)
 - [Day 10: Calculator](learn_python_by_coding/day_10)
-- [Day 10: Blackjack](learn_python_by_coding/day_11)
+- [Day 11: Blackjack](learn_python_by_coding/day_11)
+- [Day 12: Global and local scope](learn_python_by_coding/day_12)
+- [Day 13: How to debug python code](learn_python_by_coding/day_13)
+- [Day 14: High or low game](learn_python_by_coding/day_14)
 
 ## Useful Links:
 - [Reeborg's world](https://reeborg.ca/index_en.html)
