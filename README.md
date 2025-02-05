@@ -30,7 +30,7 @@ A great thank you to [Angela Yu](https://www.linkedin.com/in/angela-yu1/) for cr
 - [Day 12: Global and local scope](learn_python_by_coding/day_12)
 - [Day 13: How to debug python code](learn_python_by_coding/day_13)
 - [Day 14: High or low game](learn_python_by_coding/day_14)
-- [Day 14: Coffee machine Program](learn_python_by_coding/day_15)
+- [Day 15: Coffee machine Program](learn_python_by_coding/day_15)
 
 ## Useful Links:
 - [Reeborg's world](https://reeborg.ca/index_en.html)
