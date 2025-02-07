@@ -31,6 +31,8 @@ A great thank you to [Angela Yu](https://www.linkedin.com/in/angela-yu1/) for cr
 - [Day 13: How to debug python code](learn_python_by_coding/day_13)
 - [Day 14: High or low game](learn_python_by_coding/day_14)
 - [Day 15: Coffee machine Program](learn_python_by_coding/day_15)
+- [Day 16: Python Classes](learn_python_by_coding/day_16)
+- [Day 17: Quiz Game](learn_python_by_coding/day_17)
 
 ## Useful Links:
 - [Reeborg's world](https://reeborg.ca/index_en.html)
