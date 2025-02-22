@@ -90,6 +90,6 @@ def hirst_painting():
                 my_turtle.forward(50)
             row_number += 1
 
-# hirst_painting()
+hirst_painting()
 # # Keep the window open
 my_screen.mainloop()
