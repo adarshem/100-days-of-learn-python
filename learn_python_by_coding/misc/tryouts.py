@@ -13,9 +13,9 @@ print(squared, evens, total)
 # Example dictionary
 my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
-print(F"my_dict.items(): {my_dict.items()}")
-print(F"my_dict.values(): {my_dict.values()}")
-print(F"my_dict.keys(): {my_dict.keys()}")
+print(F"my_dict.items(): {my_dict.items()}") # Output: dict_items([('a', 1), ('b', 2), ('c', 3), ('d', 4)])
+print(F"my_dict.values(): {my_dict.values()}") # Output: dict_values([1, 2, 3, 4])
+print(F"my_dict.keys(): {my_dict.keys()}") # Output: dict_keys(['a', 'b', 'c', 'd'])
 
 # Use map to square the values
 squared_values = dict(map(lambda item: (item[0], item[1] ** 2), my_dict.items()))
