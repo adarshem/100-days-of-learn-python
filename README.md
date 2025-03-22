@@ -35,6 +35,7 @@ A great thank you to [Angela Yu](https://www.linkedin.com/in/angela-yu1/) for cr
 - [Day 17: Quiz Game](learn_python_by_coding/day_17)
 - [Day 18: Python Module Importing, Installing Packages, and Aliasing](learn_python_by_coding/day_18)
 - [Day 19: Python Class Instances, State, and Higher-Order Functions](learn_python_by_coding/day_19)
+- [Day 20-21: Snake game](learn_python_by_coding/day_20_21/)
 
 ## Useful Links:
 - [Reeborg's world](https://reeborg.ca/index_en.html)
