@@ -9,6 +9,7 @@ class Snake:
         self.segments: List[Turtle] = []
         self.create_snake()
         self.head = self.segments[0]
+        self.length = 3
 
     def create_snake(self):
         for position in STARTING_POSITION:
@@ -39,3 +40,11 @@ class Snake:
     def right(self):
         if self.segments[0].heading() != 180:
             self.segments[0].setheading(0)
+
+    def add_tail_segment(self):
+        new_tail_segment = Turtle(shape="square")
+        new_tail_segment.color("white")
+        new_tail_segment.penup()
+        new_tail_segment.goto(self.segments[self.length - 1].xcor(), self.segments[self.length - 1].ycor())
+        self.segments.append(new_tail_segment)
+        self.length += 1
