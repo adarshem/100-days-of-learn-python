@@ -48,3 +48,5 @@ class Snake:
         new_tail_segment.goto(self.segments[self.length - 1].xcor(), self.segments[self.length - 1].ycor())
         self.segments.append(new_tail_segment)
         self.length += 1
+
+    # detect collision
