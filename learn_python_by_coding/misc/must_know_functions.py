@@ -91,3 +91,9 @@ numbers = [10, 15, 20, 25]
 evens = filter(lambda x: x % 2 == 0, numbers)
 
 print(list(evens))  # [10, 20]
+
+# 10:57 | Function #6 - sum
+# 11:41 | Function #7 - sorted
+# 13:31 | Function #8 - enumerate
+# 15:10 | Function #9 - zip
+# 18:00 | Function #10 - open
